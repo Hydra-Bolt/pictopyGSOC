@@ -201,4 +201,5 @@ def info(path):
     return os.stat(path)
 
 if __name__ == '__main__':
+    logIntoFile(logPath())
     app.run(debug=True, host='0.0.0.0')
